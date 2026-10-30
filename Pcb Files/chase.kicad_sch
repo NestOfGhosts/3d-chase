@@ -887,207 +887,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Q_NMOS"
 			(pin_numbers
 				(hide yes)
@@ -2072,18 +1871,6 @@
 		(uuid "3cbc33ef-3111-433d-a340-aa31fa6903a9")
 	)
 	(junction
-		(at 140.97 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52f887a9-3b1a-483b-9df1-3bb5ee42071a")
-	)
-	(junction
-		(at 153.67 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "692cf7de-3b9b-4e33-a206-d6f0be720216")
-	)
-	(junction
 		(at 193.04 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2131,12 +1918,6 @@
 		(color 0 0 0 0)
 		(uuid "ed7b86ea-9bc7-462d-9dfd-6e605da88349")
 	)
-	(junction
-		(at 163.83 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fffebe0e-fa47-4161-b99d-7e4917f1491f")
-	)
 	(no_connect
 		(at 97.79 77.47)
 		(uuid "1d917f30-de02-4d52-ba01-54877143bd8d")
@@ -2178,16 +1959,6 @@
 			(type default)
 		)
 		(uuid "060d409e-a5a9-4781-a183-a0eb72720369")
-	)
-	(wire
-		(pts
-			(xy 238.76 78.74) (xy 238.76 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "061d6970-39c8-406f-9d31-6c389d8d97f9")
 	)
 	(wire
 		(pts
@@ -2271,16 +2042,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 95.25) (xy 153.67 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28352da7-0477-4952-a463-2a099609b65a")
-	)
-	(wire
-		(pts
 			(xy 135.89 118.11) (xy 135.89 115.57)
 		)
 		(stroke
@@ -2351,16 +2112,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 163.83 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e172640-f12d-4ff6-ae63-ad8af48fb3d0")
-	)
-	(wire
-		(pts
 			(xy 77.47 90.17) (xy 97.79 90.17)
 		)
 		(stroke
@@ -2411,16 +2162,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 58.42) (xy 236.22 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49e16ccf-2a8a-422e-8297-90bffff12e3d")
-	)
-	(wire
-		(pts
 			(xy 199.39 54.61) (xy 193.04 54.61)
 		)
 		(stroke
@@ -2438,16 +2179,6 @@
 			(type default)
 		)
 		(uuid "519d0ae5-7c96-4ce1-8ade-a2a7cf37994a")
-	)
-	(wire
-		(pts
-			(xy 163.83 100.33) (xy 167.64 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55e7fe2d-773c-4765-952b-f7660e537357")
 	)
 	(wire
 		(pts
@@ -2551,26 +2282,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 97.79) (xy 157.48 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dc27066-8a27-4f08-bc67-4510b1123f14")
-	)
-	(wire
-		(pts
-			(xy 140.97 95.25) (xy 147.32 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80214f76-0648-4404-af21-b6bd6998f206")
-	)
-	(wire
-		(pts
 			(xy 195.58 45.72) (xy 195.58 48.26)
 		)
 		(stroke
@@ -2591,16 +2302,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 97.79) (xy 153.67 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "892b8cf0-f87e-478c-84d3-07a2c56acb9e")
-	)
-	(wire
-		(pts
 			(xy 213.36 52.07) (xy 219.71 52.07)
 		)
 		(stroke
@@ -2608,16 +2309,6 @@
 			(type default)
 		)
 		(uuid "8acfeb0a-9e60-4f13-acbe-33e8110c0440")
-	)
-	(wire
-		(pts
-			(xy 163.83 97.79) (xy 163.83 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b584b4f-255b-4fc6-9d10-bd7a2b85f86c")
 	)
 	(wire
 		(pts
@@ -2661,16 +2352,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 95.25) (xy 153.67 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c080bdd-6012-413d-8685-9d2a0213a218")
-	)
-	(wire
-		(pts
 			(xy 274.32 88.9) (xy 274.32 107.95)
 		)
 		(stroke
@@ -2678,16 +2359,6 @@
 			(type default)
 		)
 		(uuid "9c180cd1-576d-4bda-b395-fd8c041dee91")
-	)
-	(wire
-		(pts
-			(xy 140.97 87.63) (xy 140.97 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4e68685-ecd8-4082-b534-c3e0d5d39185")
 	)
 	(wire
 		(pts
@@ -2771,16 +2442,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 78.74) (xy 238.76 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7aa4be4-70c0-4f88-9498-8e9344ad7f45")
-	)
-	(wire
-		(pts
 			(xy 46.99 97.79) (xy 97.79 97.79)
 		)
 		(stroke
@@ -2788,16 +2449,6 @@
 			(type default)
 		)
 		(uuid "c8537c2c-f3c4-4d2f-ad7f-a5e81b44c1d0")
-	)
-	(wire
-		(pts
-			(xy 133.35 95.25) (xy 140.97 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c91c9316-1768-4434-bed1-eb39874a92b6")
 	)
 	(wire
 		(pts
@@ -2841,16 +2492,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 97.79) (xy 163.83 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9ab5341-8398-4f85-bc22-2a16cf639602")
-	)
-	(wire
-		(pts
 			(xy 135.89 27.94) (xy 135.89 80.01)
 		)
 		(stroke
@@ -2858,16 +2499,6 @@
 			(type default)
 		)
 		(uuid "d9fe2662-41d9-4945-b9e0-e14a8a4b4a3d")
-	)
-	(wire
-		(pts
-			(xy 257.81 58.42) (xy 236.22 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dacc8e8f-e766-4548-a049-4746b6ae95cc")
 	)
 	(wire
 		(pts
@@ -2901,16 +2532,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 87.63) (xy 140.97 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5a651fc-ee18-42fa-b914-819790c844d8")
-	)
-	(wire
-		(pts
 			(xy 177.8 102.87) (xy 133.35 102.87)
 		)
 		(stroke
@@ -2929,36 +2550,6 @@
 		)
 		(uuid "fd5557cd-202b-49cb-bdf3-f874ac76dd0f")
 	)
-	(label "L3"
-		(at 273.05 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "002f1872-7531-46a9-9d60-701245aa5c8b")
-	)
-	(label "L1"
-		(at 176.53 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "022d2622-6621-417a-adc7-31065b6d5972")
-	)
-	(label "P4"
-		(at 172.72 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0401b0d0-9e12-4cfd-af6a-1301b8d8f181")
-	)
 	(label "MOS3"
 		(at 247.65 102.87 180)
 		(effects
@@ -2968,266 +2559,6 @@
 			(justify right bottom)
 		)
 		(uuid "06a1e9d8-fa64-4cad-9417-bafb4e652d3c")
-	)
-	(label "P5"
-		(at 184.15 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07f77e1c-8180-4c29-97f1-16d6830829b8")
-	)
-	(label "P4"
-		(at 219.71 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ca50b76-16af-43bc-bc40-d86224a1fafe")
-	)
-	(label "L2"
-		(at 212.09 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "110fc17e-6c84-4edc-a235-58adc373c213")
-	)
-	(label "P8"
-		(at 280.67 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1138b54a-0a8b-434a-a6a0-848f78bf336e")
-	)
-	(label "L1"
-		(at 165.1 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "125acbfd-25e4-45a1-86d9-6725a774be1d")
-	)
-	(label "L3"
-		(at 285.75 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "135bcd9e-8824-42ab-a1d8-9eb5e062dbf3")
-	)
-	(label "P1"
-		(at 219.71 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13f797bc-74f4-40de-aa4f-13c176c688a7")
-	)
-	(label "P6"
-		(at 196.85 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "20d804d5-10a9-4d67-82a3-d37cb4c56294")
-	)
-	(label "P5"
-		(at 232.41 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "226db581-4595-41d7-8450-ef76ab93ae21")
-	)
-	(label "L3"
-		(at 285.75 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26258fe0-4598-4fd6-82ee-3c6f484b65f1")
-	)
-	(label "P1"
-		(at 267.97 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2aaa10c4-abfa-4281-8967-ec17900e5aea")
-	)
-	(label "L2"
-		(at 224.79 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2de0e583-9c8b-43ce-8dbf-b543c9d9f12b")
-	)
-	(label "P4"
-		(at 267.97 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "34bc5bf2-f9de-4ceb-97e5-0345731294e2")
-	)
-	(label "P9"
-		(at 245.11 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c6a56e2-e9f4-4e31-ae5a-49d28ae8c236")
-	)
-	(label "P9"
-		(at 196.85 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "502ca04a-207c-4fcf-983d-44963059afcd")
-	)
-	(label "L1"
-		(at 189.23 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58c93464-bf6d-4e05-a656-b38c69df27aa")
-	)
-	(label "L1"
-		(at 189.23 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59795c07-784e-4992-929b-a8a4b83fc673")
-	)
-	(label "P6"
-		(at 245.11 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a12bb56-3682-4372-8cab-967b48e9eafd")
-	)
-	(label "P3"
-		(at 293.37 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "63c97a3a-9315-4f43-abb5-3ba186cfbfac")
-	)
-	(label "L2"
-		(at 224.79 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "655a93fc-4569-4d50-ac85-88a11de493f6")
-	)
-	(label "P5"
-		(at 280.67 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68833900-e0a7-4e74-9011-e17c52c52e75")
-	)
-	(label "P3"
-		(at 196.85 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68d00f9a-1e67-4711-9018-4edc3beefbc8")
-	)
-	(label "L2"
-		(at 210.82 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "68ddbb00-aeaf-4b95-b81c-8f8c2289e143")
-	)
-	(label "L2"
-		(at 237.49 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "72fbb4c7-f6ab-4e6c-81af-f1f6f2a32747")
-	)
-	(label "P8"
-		(at 232.41 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b4bf3ad-b1b5-49ca-920d-d9e8e5e82e6e")
-	)
-	(label "L3"
-		(at 273.05 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f1f4289-d1ed-424c-ae1a-49dd4aa1de1d")
 	)
 	(label "MOS2"
 		(at 248.92 83.82 180)
@@ -3239,285 +2570,35 @@
 		)
 		(uuid "804019fb-f801-40bb-ad2f-d5ce40ed3c02")
 	)
-	(label "L1"
-		(at 165.1 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "80c7e152-140e-44f1-b9b6-81a676360dc4")
-	)
-	(label "L1"
-		(at 189.23 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "81804043-1432-42d8-87be-649fb4646a03")
-	)
-	(label "P2"
-		(at 185.42 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84a64e8b-c292-4258-91d4-f74261ae150c")
-	)
-	(label "L3"
-		(at 285.75 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "85b83202-a8ee-4c06-99c0-8d50dd9f3711")
-	)
-	(label "P3"
-		(at 245.11 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "879da9e3-946c-4e5d-a337-54ef7e442cf7")
-	)
-	(label "L1"
-		(at 176.53 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "91173f31-2515-46db-a69e-ba4359c5658d")
-	)
-	(label "L3"
-		(at 273.05 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9480cad5-fe4f-4774-b422-610d92d6d697")
-	)
-	(label "L2"
-		(at 237.49 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9eb024d6-2cc0-4f33-8e72-0f117ae40366")
-	)
-	(label "L1"
-		(at 165.1 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9efab1fd-1953-4092-9cf9-9afe7c612434")
-	)
-	(label "P7"
-		(at 172.72 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fb5c520-4c9c-408a-bed2-6d7fc59c9f8b")
-	)
-	(label "P9"
-		(at 293.37 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0635f63-826f-4f32-86cb-df142aad6546")
-	)
-	(label "P2"
-		(at 232.41 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a38b3333-f1f0-4496-ac77-dd7b263fd34c")
-	)
-	(label "L3"
-		(at 260.35 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a681a522-25a5-4a47-bbd8-d5b786249294")
-	)
-	(label "P7"
-		(at 218.44 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7680dd8-3697-47b5-8055-805bf7b26d3a")
-	)
 	(label "MOS1"
-		(at 97.79 100.33 180)
+		(at 133.35 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a80e76f0-7576-4320-81d0-43f94790b535")
 	)
-	(label "P2"
-		(at 280.67 132.08 0)
+	(label "MOS2"
+		(at 133.35 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
-		)
-		(uuid "a877a7cd-796f-450b-8b77-f037d942f472")
-	)
-	(label "L1"
-		(at 177.8 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a8fb1b0c-4095-4786-b36d-eff1fc1c5154")
-	)
-	(label "MOS2"
-		(at 97.79 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
 		)
 		(uuid "af53949b-b5f0-496f-a1e3-5507f45968cd")
 	)
-	(label "P6"
-		(at 293.37 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b43e4571-367b-42cb-b396-576abc03f187")
-	)
-	(label "L2"
-		(at 212.09 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b70b03a6-2ec0-4f4f-9b02-6e55aba94d02")
-	)
-	(label "L2"
-		(at 237.49 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b9178b10-40fc-48b5-8259-b25da780bb46")
-	)
-	(label "P8"
-		(at 184.15 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb5d86b2-e898-4446-b6ea-c3671bf15e01")
-	)
-	(label "L3"
-		(at 259.08 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bd3cc68b-8ba0-4672-aa02-0aa1d426f41f")
-	)
-	(label "P7"
-		(at 266.7 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd4dda08-e75c-4ff0-ba59-866c5805897e")
-	)
-	(label "L3"
-		(at 260.35 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c61e3bc5-7f38-4d6e-b2b8-86761098cae2")
-	)
 	(label "MOS3"
-		(at 97.79 105.41 180)
+		(at 133.35 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c9e39ff5-8ae0-4819-b0dd-eedd93d15890")
-	)
-	(label "P1"
-		(at 172.72 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e11403fc-02f8-415b-9434-2606a2c7d144")
-	)
-	(label "L2"
-		(at 224.79 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f0732749-35f1-4a51-afca-a22e25f72816")
 	)
 	(label "MOS1"
 		(at 250.19 63.5 180)
@@ -3528,97 +2609,6 @@
 			(justify right bottom)
 		)
 		(uuid "fc2df270-8c2a-41e9-abc4-7f12a4910894")
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 276.86 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04f4dd23-a5fb-4c8c-80dd-6a26c4575069")
-		(property "Reference" "D23"
-			(at 275.2725 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 275.2725 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 276.86 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 276.86 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 276.86 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98da5cfa-d2be-4224-8b3b-0cb0384ecbd8")
-		)
-		(pin "2"
-			(uuid "d9781e9c-22e3-4076-af61-f5cd8e06c5cc")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "ARDUINO_NANO:ARDUINO_NANO")
@@ -4304,7 +3294,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 172.72 100.33 180)
+		(at 250.19 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4315,7 +3305,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ab3f657-b4bd-40ea-9b76-4508bc4d9750")
 		(property "Reference" "L3"
-			(at 172.085 95.25 0)
+			(at 250.825 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4325,7 +3315,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 172.085 97.79 0)
+			(at 250.825 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4335,7 +3325,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
-			(at 172.72 100.33 0)
+			(at 250.19 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4346,7 +3336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 100.33 0)
+			(at 250.19 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4357,7 +3347,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 172.72 100.33 0)
+			(at 250.19 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4452,97 +3442,6 @@
 			(project "chase"
 				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 215.9 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1df9913d-2f6e-4cc6-bd50-0b2748681bd9")
-		(property "Reference" "D10"
-			(at 214.3125 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 214.3125 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 215.9 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 215.9 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 215.9 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eecd3550-da42-4815-85b1-3829a534318c")
-		)
-		(pin "2"
-			(uuid "93d6b322-9640-4566-815c-b8b7d831e620")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4792,97 +3691,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 241.3 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "285c1004-8558-4fc3-a9d5-664f9dc60425")
-		(property "Reference" "D12"
-			(at 239.7125 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 239.7125 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 241.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 241.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 241.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9235aec7-c79a-4f07-98c9-927cd1728e1b")
-		)
-		(pin "2"
-			(uuid "ae3288e7-4f90-42f1-8906-b371799bd6ae")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 193.04 105.41 180)
 		(unit 1)
@@ -4954,279 +3762,6 @@
 			(project "chase"
 				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
 					(reference "P2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 214.63 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ea37052-5b5d-4965-909b-09845b19170f")
-		(property "Reference" "D16"
-			(at 213.0425 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 213.0425 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 214.63 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 214.63 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 214.63 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f3ba91c6-7a90-4f8f-8d47-13237949038f")
-		)
-		(pin "2"
-			(uuid "42f310c7-bb76-408d-a484-5c97c0198040")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 168.91 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3168b5fa-545a-4eee-ac3b-82d7367ca39b")
-		(property "Reference" "D7"
-			(at 167.3225 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 167.3225 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 168.91 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 168.91 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 168.91 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7d9d352-b866-41d5-9a1f-064e77818adc")
-		)
-		(pin "2"
-			(uuid "dc032c3d-dbb6-4c05-82b9-3b0c136b5c19")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 289.56 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3177048a-0eef-4afc-8cde-80b0ae8eba9f")
-		(property "Reference" "D27"
-			(at 287.9725 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 287.9725 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 289.56 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 289.56 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 289.56 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f8ea41df-9b08-4526-9796-3449599a8167")
-		)
-		(pin "2"
-			(uuid "0c5e6ae9-68f5-4fd1-94a4-f75afbeab00c")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -5305,97 +3840,6 @@
 			(project "chase"
 				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 228.6 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41d7f364-a551-4871-8dd6-3ddb3aeee89f")
-		(property "Reference" "D14"
-			(at 227.0125 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 227.0125 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 228.6 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 228.6 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 228.6 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b22fa22-ab3a-45f0-a09d-e463fde700e1")
-		)
-		(pin "2"
-			(uuid "b7c930f6-31aa-4a14-9c8f-09a4138b729f")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -5566,279 +4010,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 276.86 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51a6a363-e4db-484e-8aed-781456ade659")
-		(property "Reference" "D24"
-			(at 275.2725 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 275.2725 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 276.86 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 276.86 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 276.86 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0739ec95-1fab-45d6-8edc-f410224ffff0")
-		)
-		(pin "2"
-			(uuid "37117b9f-c6bd-4b42-b9a0-f091ef7f97fe")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 193.04 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53ed0db4-dc89-4ee0-8d23-70d46da4f653")
-		(property "Reference" "D6"
-			(at 191.4525 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 191.4525 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 193.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 193.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 193.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f1ea17a-d7f6-4e01-b645-056eb8beecf0")
-		)
-		(pin "2"
-			(uuid "d637817e-b091-45e5-83bc-003c6663fdf5")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 228.6 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e60f2ad-7334-44b1-947b-fb5fefcadf0a")
-		(property "Reference" "D17"
-			(at 227.0125 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 227.0125 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 228.6 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 228.6 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 228.6 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f18a7be3-6321-47d4-8aba-c4a190c3ce88")
-		)
-		(pin "2"
-			(uuid "884709f2-ac83-407a-a125-7dcbb213b890")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 82.55 87.63 0)
 		(unit 1)
@@ -5916,99 +4087,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 180.34 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "722485f8-3260-4bac-9747-3ebe41f0ddd4")
-		(property "Reference" "D5"
-			(at 178.7525 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 178.7525 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 180.34 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 180.34 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 180.34 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3fc440f9-dcc6-454f-b5f6-c18991e18fdf")
-		)
-		(pin "2"
-			(uuid "831c670b-519a-44bd-8d9a-db59c1fe15ec")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 152.4 95.25 180)
+		(at 252.73 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6019,7 +4099,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c1ab8f4-ce5a-4d94-9a57-5c7a09ddbe2f")
 		(property "Reference" "L1"
-			(at 151.765 90.17 0)
+			(at 253.365 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6029,7 +4109,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 151.765 92.71 0)
+			(at 253.365 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6039,7 +4119,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
-			(at 152.4 95.25 0)
+			(at 252.73 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +4130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 95.25 0)
+			(at 252.73 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,7 +4141,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 152.4 95.25 0)
+			(at 252.73 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6078,97 +4158,6 @@
 			(project "chase"
 				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 215.9 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7dca94e4-5871-4ce1-9bd5-20406f4298f7")
-		(property "Reference" "D13"
-			(at 214.3125 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 214.3125 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 215.9 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 215.9 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 215.9 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5503d7ee-012e-4763-95ce-220ed620e190")
-		)
-		(pin "2"
-			(uuid "d61bd4ce-9c0a-4e20-89bc-5a9e839ed43d")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -6328,279 +4317,6 @@
 			(project "chase"
 				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
 					(reference "P7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 228.6 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85a644eb-94dc-4247-ad4b-1be467bd39f3")
-		(property "Reference" "D11"
-			(at 227.0125 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 227.0125 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 228.6 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 228.6 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 228.6 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4847077d-0199-4b74-bf7c-5a6fba99fd7c")
-		)
-		(pin "2"
-			(uuid "42267bbf-8125-47c1-b282-5fd751f05191")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 168.91 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88060e62-32d0-480c-ab11-c059eedb8534")
-		(property "Reference" "D1"
-			(at 167.3225 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 167.3225 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 168.91 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 168.91 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 168.91 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae9f30e5-d1c4-43e5-955b-198cda529bde")
-		)
-		(pin "2"
-			(uuid "ce943d38-de9b-4cf3-9fb8-a8ce57e0caf6")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 262.89 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bdb2aa6-9ea5-4b92-8c49-0650f1fadfaf")
-		(property "Reference" "D19"
-			(at 261.3025 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 261.3025 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 262.89 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 262.89 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 262.89 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6132b231-18bc-453b-aa4b-b0b2d83264fd")
-		)
-		(pin "2"
-			(uuid "358de548-344e-4f5d-9b28-ffbce45fade9")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -6771,97 +4487,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 168.91 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aaed652b-2d5b-4c0f-8afa-23387b7c0363")
-		(property "Reference" "D4"
-			(at 167.3225 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 167.3225 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 168.91 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 168.91 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 168.91 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bbfb349d-7e0b-41fd-a3d5-8bde510a86c6")
-		)
-		(pin "2"
-			(uuid "b6ed550c-956a-462b-8005-84f3a2b3e0cd")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 182.88 102.87 180)
 		(unit 1)
@@ -6933,188 +4558,6 @@
 			(project "chase"
 				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
 					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 264.16 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acccd947-32a6-4eec-9f34-415dc437b968")
-		(property "Reference" "D21"
-			(at 262.5725 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 262.5725 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 264.16 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 264.16 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 264.16 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c267b453-2ed7-4362-aae9-39c18c0aec5c")
-		)
-		(pin "2"
-			(uuid "19aeb34c-703b-49d7-8aa8-94c35e251dde")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 264.16 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4cfc4f4-9434-4cb1-90e7-abd9767638ab")
-		(property "Reference" "D20"
-			(at 262.5725 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 262.5725 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 264.16 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 264.16 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 264.16 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "656958f1-4e4b-4112-8e70-17e3d1decf15")
-		)
-		(pin "2"
-			(uuid "cf1094db-4348-4db7-8a0d-0aabac698c4e")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -7203,281 +4646,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 289.56 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bac6bb44-88a9-4fac-9150-a9432fa1b0d9")
-		(property "Reference" "D25"
-			(at 287.9725 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 287.9725 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 289.56 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 289.56 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 289.56 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "84ad051f-1184-4694-8e72-5988244a2571")
-		)
-		(pin "2"
-			(uuid "5dc6f2c0-ae38-4050-a995-4a9220339b90")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 180.34 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd09f0dc-520f-4810-bed8-089a5f7dfe89")
-		(property "Reference" "D8"
-			(at 178.7525 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 178.7525 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 180.34 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 180.34 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 180.34 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa064ddb-9ce6-4853-8c11-14b6be238a13")
-		)
-		(pin "2"
-			(uuid "87c101cb-03c5-459e-b030-8331275e8735")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 276.86 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd433b54-7b81-450b-a530-2bdaada4428f")
-		(property "Reference" "D22"
-			(at 275.2725 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 275.2725 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 276.86 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 276.86 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 276.86 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3e94a6b-3f12-4590-a434-62b42e3ba3ae")
-		)
-		(pin "2"
-			(uuid "fabd9d07-4c05-4d7e-9274-3380d7eaf2a1")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 162.56 97.79 180)
+		(at 251.46 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7488,7 +4658,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd4eba4b-4401-4a1c-98ac-c0088ded08d9")
 		(property "Reference" "L2"
-			(at 161.925 92.71 0)
+			(at 252.095 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7498,7 +4668,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 161.925 95.25 0)
+			(at 252.095 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7508,7 +4678,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
-			(at 162.56 97.79 0)
+			(at 251.46 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7519,7 +4689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 97.79 0)
+			(at 251.46 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7530,7 +4700,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 162.56 97.79 0)
+			(at 251.46 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7866,188 +5036,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 193.04 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d70ec2eb-d0cf-4fe5-a763-b5fdf57f8318")
-		(property "Reference" "D3"
-			(at 191.4525 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 191.4525 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 193.04 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 193.04 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 193.04 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b1ebd14-9958-46b7-bed3-0ba38059e4d1")
-		)
-		(pin "2"
-			(uuid "8e393b5d-26e9-4a23-a7c0-9b9b6be4a79a")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 193.04 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ded98b07-daa5-4808-a0f1-58fcc2a1d55d")
-		(property "Reference" "D9"
-			(at 191.4525 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 191.4525 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 193.04 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 193.04 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 193.04 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "042e14a4-d1a4-4710-830f-e8e09253a416")
-		)
-		(pin "2"
-			(uuid "12d27bc8-1958-42b2-a094-bc2a53b520f3")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 179.07 52.07 0)
 		(unit 1)
@@ -8122,188 +5110,6 @@
 			(project "chase"
 				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
 					(reference "Y+1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 241.3 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e46d7bf3-0d66-41c2-8c01-8741fd2cf223")
-		(property "Reference" "D18"
-			(at 239.7125 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 239.7125 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 241.3 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 241.3 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 241.3 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2478ba3a-d07d-43de-a383-42aa57b48e5e")
-		)
-		(pin "2"
-			(uuid "8d8e0d7c-0161-4af5-b363-c9e28fac9e4f")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 181.61 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6c1177e-ea14-49be-951b-50e20d6d7384")
-		(property "Reference" "D2"
-			(at 180.0225 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 180.0225 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 181.61 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 181.61 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 181.61 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9b77cefa-de72-4e98-9481-012793f14f5f")
-		)
-		(pin "2"
-			(uuid "af674567-926a-41ec-836d-ed80b8bb433a")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8458,188 +5264,6 @@
 			(project "chase"
 				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
 					(reference "P9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 289.56 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6228392-7374-47c8-8a52-5e819bee6a35")
-		(property "Reference" "D26"
-			(at 287.9725 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 287.9725 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 289.56 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 289.56 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 289.56 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8dd01dfd-1197-4348-916c-22cdec42593a")
-		)
-		(pin "2"
-			(uuid "7b6eb27e-0154-4111-86a5-55f48d23612a")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 241.3 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fefee726-8268-4b69-a2bb-a84fc258fa55")
-		(property "Reference" "D15"
-			(at 239.7125 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 239.7125 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-3"
-			(at 241.3 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 241.3 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 241.3 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d21c0c54-df94-466d-a57e-1fdfba0d98cf")
-		)
-		(pin "2"
-			(uuid "07c92300-389f-4c5b-93ae-4b73455fae79")
-		)
-		(instances
-			(project "chase"
-				(path "/6f1618b8-e2ec-4021-b379-de5e3cf8419c"
-					(reference "D15")
 					(unit 1)
 				)
 			)
