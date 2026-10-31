@@ -15,7 +15,7 @@ But the cube is 9x9x9 so i dont think the snake's body would work, so it's just 
 
 ## Stuff you need
 
-[BOM.csv](https://github.com/NestOfGhosts/3d-chase/blob/main/BOM.csv) is just a copy of the things I personally had to buy for the project and their prices, not a complete list of things you need.
+[BOM.csv](https://github.com/NestOfGhosts/3d-chase/blob/main/BOM.csv) is just a copy of the things I personally had to buy for the project and their prices, not a complete list of things you need. The following table is the complete parts list.
 
 |Thing you need|What you need it for|
 |--------------|--------------------|
@@ -34,10 +34,30 @@ Additional notes:
   - I got my pcb and chassis from JLCPCB and JLC3DP (respectively).
   - Diffused leds work better for this projects, because realistically you're looking at the leds from multiple angles and you will be looking at them for periods of time (diffused spreads light out and reduces sharpness)
   - Colour of leds correspond to resistor strengths. If you want a different led colour google "____ led resistor ohm"
-  - The screws are -tbc
+  - The screws are ISO7380. You may need to edit chassis screw holes if the screws you buy are bigger
+  - The firmware is built for the old Atmega328 bootloader
+
+## Assembly
+Instructions are windows
+1. Download firmware .hex from [INSERT LINK]()
+2. Download a .hex firmware flasher [Avrdude](https://blog.zakkemble.net/avrdudess-a-gui-for-avrdude/)
+3. Open device manager, and expand the "Ports (COM & LPT)"
+4. Plug in the nano. A new port should appear. Take note of the COM number (etcetcetc (COM___))
+5. In Avrdude, set preset to "Arduino Nano (Atmega328p)". You may have purchased a Nano with a Atmega328 or Atmega328PB MCU. If so, change MCU to the correct one.
+<img width="183" height="181" alt="image" src="https://github.com/user-attachments/assets/28b670cf-2430-4d30-9024-e5042e50c510" />
+
+6. In Avrdude, set port to the COM number. Other programmer setting should be correct because of the preset.
+<img width="443" height="122" alt="image" src="https://github.com/user-attachments/assets/4b8433a0-273b-47e7-8f7e-57ddd79a063f" />
+
+7. Add the path to the .hex in the "Flash" field. Set it to "Write", and press "Go"
+8. Wait until the terminal at the bottom of the gui says "Success" or smth
+
+- - TBC
 
 ## Arduino Pins:
 D0 = Power button
 D1, D2, D3, D4, D5, D6 = X+, X-, Y+, Y-, Z+, Z-
 D7, D8, D9 = MOS1, MOS2, MOS3
 D10, D11, D12, D13, D14, D15, D16, D17, D18 = Column 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+
