@@ -2,4 +2,5 @@ Item,Qty,Supplier,Cost/item,Total Cost,link
 Mosfet,3,Digikey,$1.72,$5.16,https://www.digikey.ca/en/products/detail/microchip-technology/TN0702N3-G/4902376
 Leds,12,Digikey,$0.68,$8.16,https://www.digikey.ca/en/products/detail/qt-brightek-qtb/QBL8IW60D-NW/10441175
 Resistors (150 ohm),12,Digikey,$0.04,$0.48,https://www.digikey.ca/en/products/detail/yageo/MFR-25FBF52-150R/12831
+Resistors (7.68 KOhms),3,Digikey,$0.11,$0.33,https://www.digikey.ca/en/products/detail/yageo/MFR-25FBF52-7K68/13197
 Estimated total shipping,1,,,$0.00,
