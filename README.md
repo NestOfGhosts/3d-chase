@@ -24,5 +24,20 @@ But the cube is 9x9x9 so i dont think the snake's body would work, so it's just 
 |[The Chassis](https://github.com/NestOfGhosts/3d-chase/tree/main/Chassis%20Files)|To hold everything together but in like a different way :3|
 |Arduino Nano Atmega328 with usb c|Just kinda get some clone or something that seems legit enough and compatible/same pin layout as og nano. I got mine from [Aliexpress](https://www.aliexpress.com/item/1005006128051481.html?spm=a2g0o.productlist.0.0.1b334a261XQdtX&mp=1&pdp_npi=6%40dis%21CAD%21CAD+2.74%21CAD+2.74%21%21CAD+2.74%21%21%21%4021032e4e17933253312398755e0fb7%2112000035881712636%21ct%21CA%216330886401%21%211%210%21)|
 |7 switches and keycaps|For the controls. Make sure they're mx compatible and 5 pin. MAKE SURE THEY'RE 5 PIN|
-|27 Diode leds|The ones with an anode and cathode, in any colour of your choosing|
+|27 Diode leds|The ones with an anode and cathode, in any colour of your choosing. Im using diffused whites|
+|3 Mosfets|Allows you to open and close electrical paths|
+|9 ~130-330 ohm resistors|To limit electric flow going to leds. Higher number is more resistant = duller leds. Recommended ohm resistant is for white leds|
+|3 4.7k-100k ohm resistors|Closes electrical path if mosfet isnt *fully* off|
 |M4 screws and nuts|To hold the chassis together|
+
+Additional notes: 
+  - I got my pcb and chassis from JLCPCB and JLC3DP (respectively).
+  - Diffused leds work better for this projects, because realistically you're looking at the leds from multiple angles and you will be looking at them for periods of time (diffused spreads light out and reduces sharpness)
+  - Colour of leds correspond to resistor strengths. If you want a different led colour google "____ led resistor ohm"
+  - The screws are -tbc
+
+## Arduino Pins:
+D0 = Power button
+D1, D2, D3, D4, D5, D6 = X+, X-, Y+, Y-, Z+, Z-
+D7, D8, D9 = MOS1, MOS2, MOS3
+D10, D11, D12, D13, D14, D15, D16, D17, D18 = Column 1, 2, 3, 4, 5, 6, 7, 8, 9
