@@ -60,7 +60,21 @@ bool image[27] = {
   false, false, false
 };
 
-unsigned int timeTable[31] = {
+bool litLeds[27] = {
+  true, true, true, 
+  true, true, true, 
+  true, true, true, 
+
+  true, true, true, 
+  true, true, true, 
+  true, true, true,
+
+  true, true, true,
+  true, true, true,
+  true, true, true
+};
+
+const unsigned int timeTable[31] = {
   3500, 2940, 2505, 2168, 1907, 1703, 1546, 1424, 1329, 1255, 1198, 1154, 1119, 1093, 1072, 1056, 1043, 1034, 1026, 1020, 1016, 1012, 1009, 1007, 1006, 1005, 1004, 1003, 1002, 1001, 1000
 };
 
@@ -74,8 +88,7 @@ gameStates currState;
 
 bool pressed(Switches&sw);
 
-unsigned int lastTime;
-unsigned int trueTime;
+unsigned long lastTime;
 
 void coordConvert(Coords&input, bool onOff);
 
@@ -119,6 +132,13 @@ void loop() {
       player = {0,0,0};
       goal = {1,1,1};
       lastTime = millis();
+    }
+    else {
+      switch (random(0,3) {
+        case 0:
+        while (image != litLed) {
+          coord
+        }
     }
   }
   else if (currState == game){
