@@ -62,7 +62,7 @@ bool image[27] = {
 
 unsigned int timeTable[31] = {
   3500, 2940, 2505, 2168, 1907, 1703, 1546, 1424, 1329, 1255, 1198, 1154, 1119, 1093, 1072, 1056, 1043, 1034, 1026, 1020, 1016, 1012, 1009, 1007, 1006, 1005, 1004, 1003, 1002, 1001, 1000
-}
+};
 
 Coords player;
 
@@ -73,6 +73,9 @@ int score;
 gameStates currState;
 
 bool pressed(Switches&sw);
+
+unsigned int lastTime;
+unsigned int trueTime;
 
 void coordConvert(Coords&input, bool onOff);
 
@@ -115,12 +118,14 @@ void loop() {
       score = 0;
       player = {0,0,0};
       goal = {1,1,1};
+      lastTime = millis();
     }
   }
   else if (currState == game){
-    if (timeTable[score > 30 ? 30 : score] - millis() > 0) {
+    if (timeTable[score/3 > 30 ? 30 : score/3] > millis() - lastTime) {
       if (player.x == goal.x && player.y == goal.y && player.z == goal.z) {
         score++;
+        lastTime = millis();
         while (player.x == goal.x && player.y == goal.y && player.z == goal.z) {
         goal.x = random(0,3);
         goal.y = random(0,3);
@@ -161,16 +166,16 @@ void loop() {
           }
         }
       }
-    }
-    else {
-      currState = death;
-    }
-    if (
-      ghost.x <= 2 && ghost.y <= 2 && ghost.z <= 2 &&
-      ghost.x >= 0 && ghost.y >= 0 && ghost.z >= 0) {
-        player = ghost;
-        coordConvert(player, true);
+      if (
+        ghost.x <= 2 && ghost.y <= 2 && ghost.z <= 2 &&
+        ghost.x >= 0 && ghost.y >= 0 && ghost.z >= 0) {
+          player = ghost;
+          coordConvert(player, true);
+        }
+      else {
+        currState = death;
       }
+    }
     else {
       currState = death;
     }
