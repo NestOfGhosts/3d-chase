@@ -60,6 +60,10 @@ bool image[27] = {
   false, false, false
 };
 
+unsigned int timeTable[31] = {
+  3500, 2940, 2505, 2168, 1907, 1703, 1546, 1424, 1329, 1255, 1198, 1154, 1119, 1093, 1072, 1056, 1043, 1034, 1026, 1020, 1016, 1012, 1009, 1007, 1006, 1005, 1004, 1003, 1002, 1001, 1000
+}
+
 Coords player;
 
 Coords goal;
@@ -110,47 +114,56 @@ void loop() {
       currState = game;
       score = 0;
       player = {0,0,0};
+      goal = {1,1,1};
     }
   }
   else if (currState == game){
-    if (player.x == goal.x && player.y == goal.y && player.z == goal.z) {
-      score++;
-      while (player.x == goal.x && player.y == goal.y && player.z == goal.z) {
-      goal.x = random(0,3);
-      goal.y = random(0,3);
-      goal.z = random(0,3);
+    if (timeTable[score > 30 ? 30 : score] - millis() > 0) {
+      if (player.x == goal.x && player.y == goal.y && player.z == goal.z) {
+        score++;
+        while (player.x == goal.x && player.y == goal.y && player.z == goal.z) {
+        goal.x = random(0,3);
+        goal.y = random(0,3);
+        goal.z = random(0,3);
+        }
+      }
+      else {
+        bool blink = millis() / blinkLength % 2;
+        coordConvert(goal, blink);
+      }
+      if (powerState == true) {
+        currState = death;
+      }
+      Coords ghost = player;
+      for (int i = 0; i < 6; i++) {
+        if (conState[i] == true){
+          switch (controls[i].direction) {
+          case xminus:
+            ghost.x--;
+            break;
+          case xplus:
+            ghost.x++;
+            break;
+          case yminus:
+            ghost.y--;
+            break;
+          case yplus:
+            ghost.y++;
+            break;
+          case zminus:
+            ghost.z--;
+            break;
+          case zplus:
+            ghost.z++;
+            break;
+          default:
+            break;
+          }
+        }
       }
     }
     else {
-      bool blink = millis() / blinkLength % 2;
-      coordConvert(goal, blink);
-    }
-    Coords ghost = player;
-    for (int i = 0; i < 6; i++) {
-      if (conState[i] == true){
-        switch (controls[i].direction) {
-        case xminus:
-          ghost.x--;
-          break;
-        case xplus:
-          ghost.x++;
-          break;
-        case yminus:
-          ghost.y--;
-          break;
-        case yplus:
-          ghost.y++;
-          break;
-        case zminus:
-          ghost.z--;
-          break;
-        case zplus:
-          ghost.z++;
-          break;
-        default:
-          break;
-        }
-      }
+      currState = death;
     }
     if (
       ghost.x <= 2 && ghost.y <= 2 && ghost.z <= 2 &&
