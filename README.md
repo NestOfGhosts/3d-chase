@@ -13,6 +13,26 @@ But it's snake:
 
 But the cube is 9x9x9 so i dont think the snake's body would work, so it's just going to be a led moving towards blinking leds.
 
+### The game explaination
+These are what the keys map to.
+
+<img width="215" height="190" alt="image" src="https://github.com/user-attachments/assets/6eaf145d-776f-44c9-93fa-d6d2aefae96e" />
+
+PWR just start the game, and does nothing beyond that. Why is it called PWR? Because I thought i was going to do more with the button. The other keys that move you along the x,y, and z axis.
+
+You start in (0,0,0(Corner of the cube)) as the lit up led, and the goal starts in (1,1,1 (center of the cube)) as the blinking led. 
+You have 3.5 seconds to move your light to the goal. A new goal will spawn, and every 3 points the time limit will go down. 
+
+Here are the values for every time decrease (in milliseconds): 3500, 2940, 2505, 2168, 1907, 1703, 1546, 1424, 1329, 1255, 1198, 1154, 1119, 1093, 1072, 1056, 1043, 1034, 1026, 1020, 1016, 1012, 1009, 1007, 1006, 1005, 1004, 1003, 1002, 1001, 1000.
+
+Past 90 points, the time stays at a static 1000 milliseconds (1 second). You effectively win if you can get to the points within 1 second without making a mistake. If you get to that level, you can try editing the firmware to have a different/steeper decrease slope.
+
+If you move into a wall you fail.
+
+### Additional Note
+If you keep it plugged in it will go into a standby mode, where it'll randomly turn on the cubes leds until the cube is filled, then it'll clear it. Lets the cube work as simple decoration.
+
+
 ## Stuff you need
 
 [BOM.csv](https://github.com/NestOfGhosts/3d-chase/blob/main/BOM.csv) is just a copy of the things I personally had to buy for the project and their prices, not a complete list of things you need. The following table is the complete parts list.
@@ -43,7 +63,7 @@ But the cube is 9x9x9 so i dont think the snake's body would work, so it's just 
 ## Assembly
 ### Firmware
 Instructions are windows
-1. Download firmware .hex from [INSERT LINK]()
+1. Download firmware .hex from [the firmware folder](https://github.com/NestOfGhosts/3d-chase/blob/main/FIrmware/firmware.hex) 
 2. Download a .hex firmware flasher [Avrdude](https://blog.zakkemble.net/avrdudess-a-gui-for-avrdude/)
 3. Open device manager, and expand the "Ports (COM & LPT)"
 4. Plug in the nano. A new port should appear. Take note of the COM number (etcetcetc (COM___))
@@ -79,9 +99,18 @@ Hopefully you have a fume extractor, or have accepted asthma and metals in your 
 8. Grab the chassis cover, and route the wires through the holes in the cover.
 INSERT IMAGE
 9. Solder the wires to the 3x3 layers, and solder the anode columns to the pcb
-10. Put the chassis together 
+10. Put the chassis together
 
-## Arduino Pins:
+## Customizing the firmware.
+You need to know c++ to do major changes, because platformio uses c++, but I will go through some simple changes if you dont know C++
+- Install [Platformio](https://platformio.org/) on [VS Code](https://code.visualstudio.com)
+- Download the [3d Chase Folder](https://github.com/NestOfGhosts/3d-chase/tree/main/FIrmware/3d%20Chase%20Firmware) by pasting the url into [Download Github directory](https://download-directory.github.io/)
+- Extract the download
+- To open the platformio project, follow the first *commenter*'s instructions in [this forum post](https://community.platformio.org/t/guidance-for-a-platform-io-noob/47188) on how to open platformio projects.
+- Now, in src, you can find the main.cpp folder. Top of the file has some simple settings like debounce(how long a button has to be held to be considered pressed), how long the goal's blinks are, and how long one frame of the standby's animation is. On line 86, you can also find the time limit curve. If you dont know c++, i recommend maintaining the timeTable at 31 values, but you can adjust the indivisual values, like making the curve go down faster and end at 500, if you want a challenge. If you want a smoother curve than just guessing values you can use a graphing calculator and your favourite function to create your own curve. 
+  
+
+## Arduino Pins, for the nerds:
 D0 = Power button
 D1, D2, D3, D4, D5, D6 = X+, X-, Y+, Y-, Z+, Z-
 D7, D8, D9 = MOS1, MOS2, MOS3
