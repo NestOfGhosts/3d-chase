@@ -1,5 +1,7 @@
 # 3d-chase
-3d cube of led's as interface for simple game of snake without the body of the snake. Made by me for Hack Club Half Life
+3d cube of led's as interface for simple game of snake without the body of the snake. Made by me for Hack Club Half Life.
+
+Dear hack club reviewer. You may notice that most of the images are absolute garbage. Most are placeholders for when i do the project personally, and when I do ill add better images and remove this comment
 
 ## Premise
 
